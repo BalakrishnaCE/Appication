@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "956867819021",
+    "project_id": "novel-erp-app",
+    "storage_bucket": "novel-erp-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956867819021:android:24e4ef10ea77b050c38744",
+        "android_client_info": {
+          "package_name": "com.noveloffice_123.erpnovelapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOuZrUJNAXoWfT9w3wz4q29_K2TKT0EsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
