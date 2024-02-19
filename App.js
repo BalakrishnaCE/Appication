@@ -11,7 +11,7 @@ const ERPNextURL = 'https://erpnoveloffice.in/Leads-Assignment/tracker(apptest)'
 
 
 Sentry.init({
-    dsn: 'https://c12bcf5819170bc0a8638a732a0fece3@o4506699776851968.ingest.sentry.io/4506745364807680',
+    dsn: 'sentry DNS link',
     debug: false, // If `true`, Sentry will try to print out useful debugging information if something goes wrong with sending the event. Set it to `false` in production
   });
 
@@ -81,8 +81,8 @@ export default function App() {
 
 async function sendTokenToERPNext(email, token) {
     try {
-      const apiKey = 'ef122a54da1bfed';
-      const apiSecret = 'f80c4ce51758a2a';
+      const apiKey = 'erp_api_key';
+      const apiSecret = 'erp_api_secret';
       
       // Assume we have an API or method to check if a record exists. Adjust the URL as needed.
       const checkResponse = await fetch(`https://erpnoveloffice.in/api/resource/Expo Token/${email}-${token}`, {
@@ -139,8 +139,8 @@ async function handleLogout() {
 
 async function deleteTokenFromERPNext(email, token) {
     try {
-        const apiKey = 'ef122a54da1bfed';
-        const apiSecret = 'f80c4ce51758a2a';
+        const apiKey = 'erp_api_key';
+        const apiSecret = 'erp_api_secret';
         // Construct the document ID or URL path based on your naming scheme
         const docId = `${email}-${token}`;
 
